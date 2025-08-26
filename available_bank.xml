@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Attribute Options -->
+    <record id="bank_type_public" model="bank.attribute.options">
+        <field name="name">Public Sector Bank</field>
+        <field name="code">public</field>
+        <field name="attribute_type">bank_type</field>
+    </record>
+    <record id="bank_type_private" model="bank.attribute.options">
+        <field name="name">Private Bank</field>
+        <field name="code">private</field>
+        <field name="attribute_type">bank_type</field>
+    </record>
+
+    <record id="account_type_sb" model="bank.attribute.options">
+        <field name="name">Savings Account</field>
+        <field name="code">sb</field>
+        <field name="attribute_type">account_type</field>
+    </record>
+    <record id="account_type_ca" model="bank.attribute.options">
+        <field name="name">Current Account</field>
+        <field name="code">ca</field>
+        <field name="attribute_type">account_type</field>
+    </record>
+
+    <record id="cheque_status_issued" model="bank.attribute.options">
+        <field name="name">Issued</field>
+        <field name="code">issued</field>
+        <field name="attribute_type">cheque_status</field>
+    </record>
+    <record id="cheque_status_cleared" model="bank.attribute.options">
+        <field name="name">Cleared</field>
+        <field name="code">cleared</field>
+        <field name="attribute_type">cheque_status</field>
+    </record>
+
+    <!-- Banks -->
+    <record id="demo_bank_1" model="bank.details">
+        <field name="name">State Bank of India</field>
+        <field name="branch_name">Main Branch</field>
+        <field name="branch_code">SBI001</field>
+        <field name="ifsc_code">SBIN0000001</field>
+        <field name="bank_type">public</field>
+        <field name="address">Main Road, Mumbai</field>
+        <field name="city">Mumbai</field>
+        <field name="state">Maharashtra</field>
+        <field name="country">India</field>
+        <field name="phone">02212345678</field>
+        <field name="email">sbi.main@example.com</field>
+    </record>
+
+    <record id="demo_bank_2" model="bank.details">
+        <field name="name">HDFC Bank</field>
+        <field name="branch_name">Corporate Branch</field>
+        <field name="branch_code">HDFC002</field>
+        <field name="ifsc_code">HDFC0000002</field>
+        <field name="bank_type">private</field>
+        <field name="address">Business District, Bangalore</field>
+        <field name="city">Bangalore</field>
+        <field name="state">Karnataka</field>
+        <field name="country">India</field>
+        <field name="phone">08087654321</field>
+        <field name="email">hdfc.corp@example.com</field>
+    </record>
+
+
+</odoo>

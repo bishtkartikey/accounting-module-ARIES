@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="category_b" model="account.category">
+        <field name="name">Capital Expenditure (Asset)</field>
+        <field name="code">B</field>
+    </record>
+
+
+
+
+</odoo>

@@ -1,0 +1,89 @@
+<odoo>
+    <record id="category_a" model="account.category">
+        <field name="name">Revenue Expenditure</field>
+        <field name="code">A</field>
+    </record>
+
+<!--    .........................................................................   -->
+
+    <record id="object_class_a1" model="account.object.class">
+        <field name="name">Compensation to Employee</field>
+        <field name="class_id">00</field>
+        <field name="category_id" ref="category_a"/>
+    </record>
+    <record id="object_class_a2" model="account.object.class">
+        <field name="name">Social Security Of employees</field>
+        <field name="class_id">01</field>
+        <field name="category_id" ref="category_a"/>
+    </record>
+    <record id="object_class_a3" model="account.object.class">
+        <field name="name">Goods and Services</field>
+        <field name="class_id">02</field>
+        <field name="category_id" ref="category_a"/>
+    </record>
+    <record id="object_class_b" model="account.object.class">
+        <field name="name">Object class VII - Financial Assets</field>
+        <field name="class_id">01</field>
+        <field name="category_id" ref="category_a"/>
+    </record>
+
+
+
+<!--    Object Head OB-1 ...............................................................................-->
+
+    <record id="object_head_1" model="account.object.head">
+        <field name="name">Salaries</field>
+        <field name="description">It will include pay of the Government employees as defined under FR 9(21), honorarium to Government servant and stipend to interns. It will also include expenditure on emoluments and allowances of Heads of States and other high dignitaries including Sumptuary Allowance, salary payable to the staff of Departmental canteens and leave encashment on LTC.</field>
+        <field name="object_class_id" ref="object_class_a1"/>
+    </record>
+
+        <record id="object_head_2" model="account.object.head">
+        <field name="name">Wages</field>
+        <field name="description">It will include wages of labourers and of staff at present paid out of contingencies.</field>
+        <field name="object_class_id" ref="object_class_a1"/>
+        </record>
+
+        <record id="object_head_3" model="account.object.head">
+        <field name="name">Rewards</field>
+        <field name="description">It will include rewards under a scheme given to the Government employees in addition to their pay and allowances. It will also include payment of bonus and cash awards for Hindi Pratiyogita, etc.</field>
+        <field name="object_class_id" ref="object_class_a1"/>
+        </record>
+
+        <record id="object_head_4" model="account.object.head">
+        <field name="name">Medical Treatment</field>
+        <field name="description">It will include amount paid towards medical reimbursements / treatment of the Government employees/ pensioners.</field>
+        <field name="object_class_id" ref="object_class_a1"/>
+        </record>
+
+        <record id="object_head_5" model="account.object.head">
+        <field name="name">Allowances</field>
+        <field name="description">It will include as applicable the Dearness Allowance, House Rent Allowance, Transport Allowance, Foreign Allowance, Non Practicing Allowance, Deputation (Duty) Allowance, Personal Pay, Family Planning Allowance, Special Compensatory (Hill Areas) Allowance, Tribal Area Allowance, Hard Area Allowance, Headquarter Allowance, Overtime Allowance, Children Education Allowance, Reimbursement of Tuition Fee, Ration Allowance, Cost of Ration given in cash, Constituency Allowance,Uniform and Clothing Allowance, Entertainment Allowance, Project Allowance, Special Compensatory (Remote Locality) Allowance, Bad Climate Allowance, Washing Allowance, Special (Duty) Allowance, Night Duty Allowance, Risk Allowance, Sunderban Allowance, Cash Handling Allowance, Caretaking Allowance, Split Duty Allowance and any other allowance in addition to above which is payable to the Government employees in addition to their pay.</field>
+        <field name="object_class_id" ref="object_class_a1"/>
+        </record>
+
+    <record id="object_head_6" model="account.object.head">
+        <field name="name">Leave Travel Concession</field>
+        <field name="description">It will include air/rail/bus fare/fare of any other mode of transport entitled under LTC Rule.</field>
+        <field name="object_class_id" ref="object_class_a1"/>
+        </record>
+
+    <record id="object_head_7" model="account.object.head">
+        <field name="name">training Expenses</field>
+        <field name="description">It will include expenditure on cost of training such as fees paid, contingencies, materials, etc., for participating in the training, workshops but exclude expenditure on domestic or foreign travel expenses.</field>
+        <field name="object_class_id" ref="object_class_a1"/>
+        </record>
+
+    <record id="object_head_8" model="account.object.head">
+        <field name="name">Medical Treatment</field>
+        <field name="description">It will include amount paid towards medical reimbursements / treatment of the Government employees/ pensioners.</field>
+        <field name="object_class_id" ref="object_class_a1"/>
+        </record>
+
+
+
+<!--    Object Head - OB2..........................................................................-->
+
+
+
+
+</odoo>

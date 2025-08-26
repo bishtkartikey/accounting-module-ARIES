@@ -1,0 +1,9 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_account_category,access_account_category,model_account_category,,1,1,1,1
+access_account_object_class,access_account_object_class,model_account_object_class,,1,1,1,1
+access_account_form,access_account_form,model_account_form,,1,1,1,1
+access_bank_details,access_bank_details,model_bank_details,,1,1,1,1
+access_bank_account,access_bank_account,model_bank_account,,1,1,1,1
+access_cheque_master,cheque.master,model_cheque_master,base.group_user,1,1,1,1
+access_account_object_head,access_account_object_head,model_account_object_head,,1,1,1,1
+access_bank_attribute_options,access_bank_attribute_options,model_bank_attribute_options,,1,1,1,1
