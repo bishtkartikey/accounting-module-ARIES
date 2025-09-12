@@ -1,3 +1,4 @@
+<img src="https://github.com/bishtkartikey/accounting-module-ARIES/blob/main/ARIES.jpg" alt="Heart Disease Prediction" width="1200" height="500" />
 
 # Odoo Custom Modules – ARIES Internship
 
