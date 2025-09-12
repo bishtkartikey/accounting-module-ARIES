@@ -42,6 +42,7 @@ The focus was on building **custom modules** to address ARIES-specific workflows
 ---
 
 ## 🖥 Setting up the Odoo Environment
+<img src="https://github.com/bishtkartikey/accounting-module-ARIES/blob/main/RIES.jpg" alt="Heart Disease Prediction" width="1200" height="500" />
 
 ### 🔹 Odoo Installation
 
